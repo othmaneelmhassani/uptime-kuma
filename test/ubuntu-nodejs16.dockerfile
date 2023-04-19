@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.10
 WORKDIR /app
 RUN apt update && apt --yes install git curl
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
